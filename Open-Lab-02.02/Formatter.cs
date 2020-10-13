@@ -6,7 +6,7 @@ namespace Open_Lab_02._02
     {
         public void Format(double[] numbers)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException(); 
         }
     }
 }
