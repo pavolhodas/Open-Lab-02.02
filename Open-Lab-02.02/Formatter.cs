@@ -10,7 +10,7 @@ namespace Open_Lab_02._02
                 string formattedNumbers = "";
             foreach (double number in numbers)
             {
-                formattedNumbers += space + Math.Truncate(number * 100) / 100; ;
+                formattedNumbers += space + Math.Round(number, 2);
                 space = " ";
             }
                 Console.Write(formattedNumbers);
